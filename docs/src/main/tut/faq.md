@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title:  "FAQ"
 section: "faq"
-pageSource: "https://raw.githubusercontent.com/julien-truffaut/Monocle/master/docs/src/main/tut/faq.md"
+position: 5
 ---
 # FAQ
 

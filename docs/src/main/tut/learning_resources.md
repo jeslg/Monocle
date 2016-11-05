@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title:  "Learning Resources"
 section: "learning_resources"
+position: 7
 ---
 
 Here are some various learning resources concerning optics. Feel free to send a PR to add other learning material.

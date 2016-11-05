@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: page
 title:  "Unsafe Module"
 section: "optics"
-pageSource: "https://raw.githubusercontent.com/julien-truffaut/Monocle/master/docs/src/main/tut/unsafe_module.md"
 ---
 
 # Intro

@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title:  "Adopters"
 section: "adopters"
+position: 8
 ---
 
 # Adopters

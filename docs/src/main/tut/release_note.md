@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title:  "Release Note"
 section: "release_note"
+position: 6
 ---
 
 # 1.3.2
