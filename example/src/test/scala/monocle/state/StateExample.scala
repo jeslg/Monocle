@@ -82,4 +82,15 @@ class StateExample extends MonocleSuite {
     update.run(oldCoolPerson) shouldEqual ((Person("chris", 30), Some("Chris")))
   }
 
+  case class Cat(name: String, age: Option[Int])
+  val _safeAge = Optional[Cat, Int](_.age)(age =>_.copy(age = Option(age)))
+
+  test("assigno for Optional (predicate is false)"){
+    val noAgeAnimal = Cat("Nela", Option.empty)
+    val update = for {
+      i <- _safeAge assigno 5
+    } yield i
+
+    update.run(noAgeAnimal) shouldEqual (((Cat("Nela", Option(5))), Option.empty))
+  }
 }
